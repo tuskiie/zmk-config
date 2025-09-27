@@ -1,0 +1,13 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_CLOG_V4
+    bool
+
+config SHIELD_CLOG_V4_LEFT
+    def_bool $(shields_list_contains,clog_v4_left)
+    select SHIELD_CLOG_V4
+
+config SHIELD_CLOG_V4_RIGHT
+    def_bool $(shields_list_contains,clog_v4_right)
+    select SHIELD_CLOG_V4

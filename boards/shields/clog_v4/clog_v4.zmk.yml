@@ -1,0 +1,11 @@
+file_format: "1"
+id: clog_v4
+name: Clog V4
+type: shield
+url: https://github.com/smores56/clog-v4
+requires: [seeed_xiao]
+features:
+  - keys
+siblings:
+  - clog_v4_left
+  - clog_v4_right
